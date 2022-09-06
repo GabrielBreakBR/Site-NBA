@@ -1,0 +1,31 @@
+html{
+    font-size: 1rem;
+    font-family: cursive;
+    font-style:italic;
+    font-weight:700;
+    padding: auto;  
+}
+img{
+    text-align: center;
+    display: block;
+      margin: auto;
+      width: 100px;
+}
+figure{
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {  img {    width: 100%;  }}
+
+h1{
+    text-align: center;
+}
+tr{
+    display: flex;
+    flex-wrap: wrap;
+}
+td{
+    display: flex;
+    flex-direction: column;
+    font-size:smaller; 
+    text-align: center;
+}
